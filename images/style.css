@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+body{
+font-family: 'Space Grotesk', sans-serif;
+}
+
+
+section{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    width: 100%;
+    background-color: hsl(225, 100%, 94%);
+position: relative;
+}
+
+.content{
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    text-align: center;
+    border: 1px solid white ;
+    background-color: #fff;
+        border-radius: 1.5rem;
+        
+}
+
+.img{
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+h1{
+color: hsl(223, 47%, 23%);
+text-transform: capitalize;
+font-weight: 900;
+}
+
+h4{
+    color: hsl(223, 47%, 23%);
+        text-transform: capitalize;
+        
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.p{
+font-size: 16px;
+    font-weight: 700;
+    width: 300px;
+    padding-left: 5rem;
+        
+}
+
+.payment{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  justify-content: center;
+  align-items: center;
+  border: .5px solid white;
+border-radius: 1rem;
+  background-color:hsl(225, 100%, 98%) ;
+  padding: 0rem 2rem;
+  
+}
+
+.payment ul{
+    list-style-type: none;
+}
+
+.btn{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 900;
+}
+
+.foot-btn ul{
+    list-style-type: none;
+    line-height: 3rem;
+    
+}
+
+.foot-btn a{
+    text-decoration: none;
+}
+
+.pay-btn{
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 94%);
+    font-weight: 900;
+    padding: .5rem 4rem;
+border-radius: .5rem;
+
+}
+
+.cancel-btn{
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+}
+
+.btn:hover{
+    opacity: 0.5;
+}
+
+.pay-btn:hover{
+opacity: 0.5;
+}
+
+.cancel-btn:hover{
+color: hsl(223, 47%, 23%);
+}
+
+
+
+@media (max-width: 375px ) {
+    section {
+            background-image: url(./images/pattern-background-mobile.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 1000px;
+            width: 100%;
+            background-color: hsl(225, 100%, 94%);
+            position: relative;
+        }
+
+                .content {
+                    position: absolute;
+                    left: 9%;
+                    top: 25%;
+                    text-align: center;
+                    border: 1px solid white;
+                    background-color: #fff;
+                    border-radius: 1.5rem;
+                    width: 300px;
+                }
+        
+                .img {
+                    border-top-left-radius: 1.5rem;
+                    border-top-right-radius: 1.5rem;
+                    width: 300px;
+                }
+        
+                h1 {
+                    color: hsl(223, 47%, 23%);
+                    text-transform: capitalize;
+                    font-weight: 900;
+                }
+        
+                h4 {
+                    color: hsl(223, 47%, 23%);
+                    text-transform: capitalize;
+                    font-weight: 400;
+                    font-size: 13px;
+        
+                }
+
+                .yr{
+                    font-weight: 400;
+                        font-size: 13px;
+                }
+        
+                p {
+                    color: hsl(224, 23%, 55%);
+                    font-weight: 700;
+                
+                }
+        
+                .p {
+                    font-size: 16px;
+                    font-weight: 700;
+        padding: 0rem;
+                }
+        
+                .payment {
+                    display: grid;
+                    grid-template-columns: 1fr 2fr 1fr;
+                    justify-content: center;
+                    align-items: center;
+                    border: .5px solid white;
+                    border-radius: 1rem;
+                    background-color: hsl(225, 100%, 98%);
+                    padding: 0rem 2rem;
+                }
+        
+                .payment ul {
+                    list-style-type: none;
+                }
+        
+                .btn {
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-weight: 900;
+                }
+        
+                .foot-btn ul {
+                    list-style-type: none;
+                    line-height: 3rem;
+        
+                }
+        
+                .foot-btn a {
+                    text-decoration: none;
+                }
+        
+                .pay-btn {
+                    background-color: hsl(245, 75%, 52%);
+                    color: hsl(225, 100%, 94%);
+                    font-weight: 900;
+                    padding: .5rem 1rem;
+                    border-radius: .5rem;
+        
+                }
+        
+                .cancel-btn {
+                    color: hsl(224, 23%, 55%);
+                    font-weight: 900;
+                }
+        
+                .btn:hover {
+                    opacity: 0.5;
+                }
+        
+                .pay-btn:hover {
+                    opacity: 0.5;
+                }
+        
+                .cancel-btn:hover {
+                    color: hsl(223, 47%, 23%);
+                }
+
+
+}
